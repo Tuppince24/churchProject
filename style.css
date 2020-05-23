@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    background-color:rgb(147, 0, 160);
+    background: rgb(147,0, 160);
+    
+}
+
+.navbar-nav {
+    list-style: none ;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    padding: 0px 20px;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.navbar-nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-nav li a:hover {
+    color: gold;
+}
+
+.pimg {
+    width: 75%;
+    height: 400px;
+    padding: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+.face {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    background-color: rgb(147, 0, 160);
+    padding-bottom: 0%;
+    color: #edf0f1 ;
+}
+
+.mainfooter {
+    background-color: rgb(147, 0, 160);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+}
+
+h2, h5 {
+    padding: 0px 10px;
+}
+.p {
+    padding: 20px 10px;
+    font-size: large;
+}
+
+.contacts {
+    list-style: none;
+}
+
+.contacts li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+#mt {
+    text-align: center;
+}
+
+.mid {
+    background-color: honeydew;
+    
+}
+
+h6 {
+    padding-top: 0px;
+}
+
+
+
+
+
+#events {
+    text-align: center;
+    padding: 10px 0px;
+    text-shadow: gold;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+table {
+    width: 900px;
+    height: 600px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+table, td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+td {
+    position:  0px 10px 0px 0px;
+    max-width: 10px;
+    max-height: 10px;
+    overflow: visible;
+}
+
+.theme {
+    display: inline-flex;
+}
+
+
+
+label {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 12px;
+    clear: left;
+    color: #edf0f1;
+}
+input, textarea {
+    margin-top: 12px;
+}
+.submit {
+    margin-left: 150px;
+    padding-bottom: 10px;
+    width: 40px;
+    border: 10px;
+}
+#formlist { 
+    background-color: rgb(147,0, 160);
+    
+    
+}
